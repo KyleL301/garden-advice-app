@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8" />
+
+    <!-- Makes website responsive on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Garden Advice App</title>
+
+    <!-- Connect CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Main heading -->
+      <h1>🌱 Garden Advice App</h1>
+
+      <p>Select your season and plant type to receive gardening advice.</p>
+
+      <!-- Season Selection -->
+      <label for="season"> Season: </label>
+
+      <select id="season">
+        <option value="summer">Summer</option>
+
+        <option value="autumn">Autumn</option>
+
+        <option value="winter">Winter</option>
+
+        <option value="spring">Spring</option>
+      </select>
+
+      <br /><br />
+
+      <!-- Plant Selection -->
+      <label for="plantType"> Plant Type: </label>
+
+      <select id="plantType">
+        <option value="flower">Flower</option>
+
+        <option value="vegetable">Vegetable</option>
+
+        <option value="herb">Herb</option>
+
+        <option value="fruitTree">Fruit Tree</option>
+      </select>
+
+      <br /><br />
+
+      <!-- User clicks this button -->
+      <button id="generateAdvice">Get Advice</button>
+
+      <hr />
+
+      <!-- Advice appears here -->
+      <div id="output">Your gardening advice will appear here.</div>
+    </div>
+
+    <!-- Connect JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

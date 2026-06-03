@@ -1,0 +1,141 @@
+/*
+========================================
+GENERAL PAGE STYLING
+========================================
+*/
+
+body {
+  font-family: Arial, sans-serif;
+
+  background-color: #f4f8f2;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+/*
+========================================
+MAIN CONTAINER
+========================================
+*/
+
+.container {
+  max-width: 600px;
+
+  margin: 50px auto;
+
+  background-color: white;
+
+  padding: 30px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/*
+========================================
+HEADINGS
+========================================
+*/
+
+h1 {
+  text-align: center;
+
+  color: #2e7d32;
+}
+
+/*
+========================================
+PARAGRAPH TEXT
+========================================
+*/
+
+p {
+  text-align: center;
+
+  color: #555;
+}
+
+/*
+========================================
+LABELS
+========================================
+*/
+
+label {
+  font-weight: bold;
+}
+
+/*
+========================================
+DROPDOWNS
+========================================
+*/
+
+select {
+  width: 100%;
+
+  padding: 10px;
+
+  margin-top: 5px;
+
+  border-radius: 5px;
+
+  border: 1px solid #ccc;
+}
+
+/*
+========================================
+BUTTON
+========================================
+*/
+
+button {
+  width: 100%;
+
+  padding: 12px;
+
+  background-color: #2e7d32;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  font-size: 16px;
+}
+
+/*
+========================================
+BUTTON HOVER EFFECT
+========================================
+*/
+
+button:hover {
+  background-color: #1b5e20;
+}
+
+/*
+========================================
+OUTPUT SECTION
+========================================
+*/
+
+#output {
+  margin-top: 20px;
+
+  padding: 15px;
+
+  background-color: #e8f5e9;
+
+  border-left: 5px solid #2e7d32;
+
+  border-radius: 5px;
+
+  min-height: 50px;
+}
